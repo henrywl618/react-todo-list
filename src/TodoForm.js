@@ -17,8 +17,8 @@ const TodoForm = ({submitAction, removeTodo,title,edit=false,id})=>{
     return (
         <form>
             <h3>{title}</h3>
-            <label htmlFor="todo"></label>
-            <input type="text"name="todo" id="todo" onChange={handleChange} value={todoInput}/>
+            <label htmlFor="todo">Enter a reminder: </label>
+            <input type="text"name="todo" id="todo" onChange={handleChange} value={todoInput} role="input"/>
             <button onClick={handleSubmit}>Submit</button>
         </form>
     );

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="Todo"
+  >
+    <button>
+      X
+    </button>
+    <button>
+      Edit
+    </button>
+    <label
+      for="completed"
+    >
+      Completed? 
+      <input
+        id="completed"
+        type="checkbox"
+      />
+    </label>
+  </li>
+</DocumentFragment>
+`;

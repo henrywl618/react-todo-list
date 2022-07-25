@@ -13,7 +13,7 @@ const Todo = ({reminder, id, removeTodo, showEditForm})=>{
                 {reminder} 
                 <button onClick={()=>removeTodo(id)}>X</button> 
                 <button onClick={()=>showEditForm(true,id,reminder)}>Edit</button>
-                <label for="completed">Completed? <input id="completed" type="checkbox" onClick={handleCheck}></input></label>
+                <label htmlFor="completed">Completed? <input id="completed" type="checkbox" onClick={handleCheck}></input></label>
             </li>
 };
 
